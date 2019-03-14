@@ -1,0 +1,58 @@
+#### DL vs. ML
+Artificial Intelligence ==> Machine Learning ==> Deep Learning
+
+
+#### 발표1
+- GitHub is web-based hosting service for Version Control using Git
+- Git is distributed Version Control System for tracking changes in source code
+- When program is updated by hundreds of people, updating can be detectied (Who updates this?)
+- Visualizing update history effectively ( by table )
+- Providing efficient co-work process including push and pull
+- Providing efficient version control including branching and merging
+- self study : http://gitimmersion.com
+
+#### 발표2
+- Git add를 실행시키면 Git repository 안에서는 objects와 index 내용이 바뀜
+- SHA-1 알고리즘 이용
+
+#### 발표3
+<웹페이지 html 활용하여 만들기>
+
+---
+
+#### Chapter7 Better living in Object World
+(p.198)
+- superclass(more abstract) vs. subclasses(more specific)
+- Variable: static, instance, local
+- instance value doesn't have to be initialized
+- Inheritance Strenghts
+  - Avoid Duplicate
+  - Define a common protocol for a group of classes
+    When you define a supertype for a group of classes, any subclass of that supertype can be __SUBSTITUTED__ where the supertype is expected
+    ==> __Polymorphism__
+- ex) Animal myDog = new Dog(); //_available_
+
+<VCS: Version Control System>
+1. Feature of VCS
+  - Allows developers to work simultaneously
+  - Does not allow overwriting each other's changes
+  - Maintains a history of every version
+2. Types
+  - CVCS: Centralized VCS (BUT When server died, everything will be gone)
+  - DVCS: Distributed / Decentralized VCS
+3. What is Git
+  - Open Source Distributed Version Control System
+  - Distributed VCS
+4. Git vs Github
+  - Git: DVCS 그 자체
+  - Github: company
+5. Terminology
+  - working directory
+  => git add
+  - staging area (index 단계로 감)
+  => git commit
+  - local repository
+  - remote repository
+  - Fork : 그냥 가져오는 것
+  - Clone : 연결돼 있음
+  - Branch : more 연결돼 있음
