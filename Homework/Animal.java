@@ -3,7 +3,7 @@ class Animal{
     String name;
     int age;
 
-    private int test;
+    private int test=5;
     protected int test2;
     
     public int getTest(){
