@@ -1,3 +1,4 @@
+
 public class RoboDog extends Robot implements Pet {
     public RoboDog(int _year){
         year = _year;
