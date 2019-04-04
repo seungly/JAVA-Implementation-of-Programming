@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Ex3ButtonEventText",
+            "request": "launch",
+            "mainClass": "GUIexample.Ex3ButtonEventText",
+            "projectName": "JavaImplementation_a7381683"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloworldGUI",
+            "request": "launch",
+            "mainClass": "GUIexample.HelloworldGUI",
+            "projectName": "JavaImplementation_a7381683"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RobotLauncher",
             "request": "launch",
             "mainClass": "Homework.RobotLauncher",

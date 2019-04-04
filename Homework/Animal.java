@@ -1,4 +1,4 @@
-
+package Homework;
 class Animal{
 
     String name;
