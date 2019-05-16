@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InputDog",
+            "request": "launch",
+            "mainClass": "Homework.InputDog",
+            "projectName": "JavaImplementation_a7381683"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Ex3ButtonEventText",
             "request": "launch",
             "mainClass": "GUIexample.Ex3ButtonEventText",

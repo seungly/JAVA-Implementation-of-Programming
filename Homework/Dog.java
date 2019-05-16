@@ -1,9 +1,13 @@
 package Homework;
+import java.io.Serializable;
 /**
  * Dog
  */
-public class Dog extends Animal {
-    public Dog(String _name, int _age){
+public class Dog extends Animal implements Serializable {
+    String name;
+    int age;
+    
+	public Dog(String _name, int _age){
         name = _name;
         age = _age;
     }
